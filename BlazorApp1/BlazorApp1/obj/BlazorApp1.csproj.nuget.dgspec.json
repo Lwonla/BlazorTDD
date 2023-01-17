@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\utveckling\\inlämmnings\\BlazorTDD\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {}
+    "D:\\utveckling\\Group Project\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "D:\\utveckling\\inlämmnings\\BlazorTDD\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {
+    "D:\\utveckling\\Group Project\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\utveckling\\inlämmnings\\BlazorTDD\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "D:\\utveckling\\Group Project\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "D:\\utveckling\\inlämmnings\\BlazorTDD\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+        "projectPath": "D:\\utveckling\\Group Project\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
         "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
-        "outputPath": "D:\\utveckling\\inlämmnings\\BlazorTDD\\BlazorTDD\\BlazorApp1\\BlazorApp1\\obj\\",
+        "outputPath": "D:\\utveckling\\Group Project\\BlazorTDD\\BlazorApp1\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

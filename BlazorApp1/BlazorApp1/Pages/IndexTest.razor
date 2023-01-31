@@ -1,0 +1,42 @@
+﻿@page "/"
+@using System.Text.Json;
+@inject HttpClient Http
+
+<button onclick=@(async () => await PrintWebApiResponse())>Print Web API Response</button>
+
+@functions {
+    private async Task PrintWebApiResponse()
+    {
+        var response = await Http.GetStringAsync("https://api.edamam.com/api/recipes/v2?type=public&app_id=40e9a7e4&app_key=f7db93623767e665c825c7f51cfeaf45&imageSize=SMALL");
+        Data? recipeData = JsonSerializer.Deserialize<Data>(response); //kolla upp
+        Console.WriteLine(response);
+        //Console.WriteLine(recipeData);
+        Console.WriteLine(recipeData.hits[0].recipe.label);
+
+
+        for (int i = 0; i < recipeData.hits.Count; i++)
+        {
+            if (recipeData.hits[i].recipe != null && !string.IsNullOrEmpty(recipeData.hits[i].recipe.label))
+            {
+                Console.WriteLine(recipeData.hits[i].recipe.label);
+            }
+        }
+        if (string.IsNullOrEmpty(response))
+        {
+            Console.WriteLine("Response is empty");
+        }
+    }
+    public class Data
+    {
+        public List<Hit> hits { get; set; }
+    }
+    public class Hit
+    {
+        public Recipe recipe { get; set; }
+    }
+    public class Recipe
+    {
+        public string label { get; set; }
+    }
+
+}

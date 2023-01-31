@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PcQaMqHPXyt3tY3vCWZ7nJqKG8grwa+X3QRJHZ1M5w6yr/af1nFTMMKcNdjXXW5MDCEYo1oGprhfOj237XhhEQ==",
+  "dgSpecHash": "SdC6cqv0tfdNXM0gZqgi0sqSrmX3+iIXD4s02+QajDJtAEOwu7+NnfxP4vVbWNF/hJM9IBBbUP5ea7tcOrHP7w==",
   "success": true,
-  "projectFilePath": "D:\\utveckling\\Group Project\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+  "projectFilePath": "D:\\Grupp Blazor\\BlazorTDD\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
